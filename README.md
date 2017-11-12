@@ -4,4 +4,6 @@ This project introduces SoundLIME or SLIME, an algorithm to explain the predicti
 
 Full length paper @ https://ismir2017.smcnus.org/wp-content/uploads/2017/10/216_Paper.pdf
 
+Incase of any issues, please contact: saumitra.mishra@qmul.ac.uk
+
 
