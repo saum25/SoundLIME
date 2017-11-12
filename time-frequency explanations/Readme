@@ -1,4 +1,6 @@
-Sound-LIME: Time-frequency explanations
+===========================
+Time-frequency explanations
+===========================
 
 This directory contains code to generate time-frequency explanations using SLIME. We demonstrate the idea by generating such explanations for a singing voice detector proposed by Jan Schluter in ISMIR 2015. Details of the contents are mentioned below
 
@@ -7,10 +9,7 @@ This directory contains code to generate time-frequency explanations using SLIME
 3. mean_std : mean and standard deviation across all dimensions over the entire Jamendo training dataset.
 4. dumps: directory to save intermediate variables and final plots
 5. SoundLIME_tf_wrapper.py: wrapper function to perform pre-processing and call LIME and saliency map API's.
-6. progress.py, simplecache.py, audio.py, model.py, augment.py: files from SVD package released at https://github.com/f0k/ismir2015.
+6. progress.py, simplecache.py, audio.py, model.py, augment.py: files from singing voice detection (SVD) package released at https://github.com/f0k/ismir2015.
 7. lime: Modified LIME package to make it work for audio-based classification. Changes/ additions can be tracked by the keyword "SLIME".
 8. ismir_2017_tf.sh: Script to reproduce the results of the paper.
-
-In case of any difficulty please contact saumitra.mishra@qmul.ac.uk
-
 
