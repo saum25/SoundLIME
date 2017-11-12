@@ -8,16 +8,4 @@ Each directory provides the code to generate explanations in general and for the
 in particular. More details of the components of each package and how to execute them is provided in the "Readme" file present
 at each directory.
 
-In case you plan to use this code, please cite our paper.
-
- @inproceedings{saumitra_slime_ismir2017,
-  author = {Saumitra Mishra and Bob L. Sturm and Dixon, Simon},
-  title = {Local Interpretable Model-Agnostic Explanations for Music Content Analysis},
-  address = {Suzhou, China},
-  booktitle = {18th International Society for Music Information Retrieval Conference (ISMIR)},
-  month = {October},
-  pages = {537 - 543},
-  year = {2017}
-}
-
 
