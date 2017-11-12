@@ -10,4 +10,14 @@ at each directory.
 
 In case you plan to use this code, please cite our paper.
 
+ @inproceedings{saumitra_slime_ismir2017,
+  author = {Saumitra Mishra and Bob L. Sturm and Dixon, Simon},
+  title = {Local Interpretable Model-Agnostic Explanations for Music Content Analysis},
+  address = {Suzhou, China},
+  booktitle = {18th International Society for Music Information Retrieval Conference (ISMIR)},
+  month = {October},
+  pages = {537 - 543},
+  year = {2017}
+}
+
 
