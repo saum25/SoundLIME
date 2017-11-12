@@ -1,4 +1,6 @@
+=====================
 Temporal explanations
+=====================
 
 This folder contains code to generate temporal explanations for a shallow machine listening/ music information retreival system. Shallow refers to the systems that require hand-crafted features to learn a machine learning model. Different folders are explained below. Each folder is pre-filled with components to reproduce the results of the paper from section 4.1.
 
