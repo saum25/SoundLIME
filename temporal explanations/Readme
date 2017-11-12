@@ -1,16 +1,21 @@
-Sound-LIME - Temporal explanations
+Temporal explanations
 
 This folder contains code to generate temporal explanations for a shallow machine listening/ music information retreival system. Shallow refers to the systems that require hand-crafted features to learn a machine learning model. Different folders are explained below. Each folder is pre-filled with components to reproduce the results of the paper from section 4.1.
 
 1. features_groundtruth: extracted features and the ground-truth annotations
-2. mean_std : mean and standard deviation across all dimensions over the entire Jamendo training dataset.
+
+2. mean_std : mean and standard deviation across all dimensions over the entire "Jamendo" training dataset.
+
 3. trained_classifier: trained decision tree and random forest classifiers for vocal detection
+
 4. datatset: Test file/files whose predictions needs to be explained
+
 5. SoundLIME_temporal_wrapper.py : Python wapper script to perform pre-processing and call the LIME APIs.
+
 6. utils.py: Utility file to perform I/O operations
-7. lime: Modified LIME package to make it work for audio-based classification. Changes/ additions can be tracked by the keyword "SLIME".
+
+7. lime: Modified LIME package to make it work for audio-based classification usecases. Changes/ additions can be tracked by the keyword "SLIME".
+
 8. ismir_2017_temporal.sh: Script to reproduce the results of the paper.
 
-Some of the explanations may differ on single iteration for the instance due to random sampling as reported in section 4.3 of the paper. So, to reproduce the results either increase the number of samples to 2000 or perform multiple iterations of explanation generation and pick the segments that are most frequent (used in the ismir paper). 
-
-Incase of any issues, please contact: saumitra.mishra@qmul.ac.uk
+Some of the generated explanations may differ for the instance due to random sampling as reported in section 4.3 of the paper. So, to reproduce the results either increase the number of samples to 2000 or perform multiple iterations of explanation generation and pick the segments that are most frequent (this method is used in the ismir paper). 
